@@ -1,9 +1,8 @@
 import * as Hapi from '@hapi/hapi';
-import * as dotenv from 'dotenv';
+import { config } from './config/config'
 
-dotenv.config();
-let port = process.env.PORT;
-console.log(port);
+let port = config.PORT;
+console.log('From index.ts, port: ' + port);
 
 const init = async () => {
 
