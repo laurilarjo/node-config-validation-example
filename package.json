@@ -1,0 +1,29 @@
+{
+  "name": "config-validation-example",
+  "version": "1.0.0",
+  "description": "Provides an example of how to validate config variables in a nodejs project",
+  "main": "index.ts",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@types/hapi__hapi": "^19.0.3",
+    "dotenv": "^8.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurilarjo/node-config-validation-example.git"
+  },
+  "author": "Lauri Larjo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laurilarjo/node-config-validation-example/issues"
+  },
+  "homepage": "https://github.com/laurilarjo/node-config-validation-example#readme"
+}
